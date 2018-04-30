@@ -5,12 +5,25 @@
     <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.2/gh-fork-ribbon.min.css" />
     <script async src="https://www.googletagmanager.com/gtag/js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <title>Object Detection in web broswer</title>
 </head>
 
 <body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#" style="font:'Helvetica Neue', Helvetica, Arial, sans-serif">
+                    Object Detection in Web Browser using Tensorflow.js and your camera</a>
+            </div>
+        </div>
+    </nav>
     <div class="wrapper">
         <div id="loading-message">
-            Loading Skynet (This may take a minute, 40mb)...
+            Please wait while the application loads on your device. (A 40MB download takes time!)
             <div>
                 <img class="spin" src="assets/logo.png">
             </div>
@@ -43,11 +56,16 @@
         Tiny YOLO</a>, a ML model that's been converted to work in Tensorflow.js.
             </p>
 
-            <h2>ACK (short form, but you should get it!)</h2>
+            <h1>ACK (short form, but you should get it!)</h1>
             <ul>
                 <li><a href="https://github.com/ModelDepot/tfjs-yolo-tiny-demo">ModelDepot tfjs-yolo-tiny-demo</a></li>
                 <li><a href="https://youtu.be/Nc8kZABv-KE">Siraj Raval's YouTube video on Tensorflow.js</a></li>
             </ul>
+
+            <h1>Privacy concerns?</h1>
+            <p>
+                No this ain't facebook. So you can be completely assured that none of your data is collected. The entire processing runs on your device, not on the server.
+            </p>
         </div>
     </div>
     <script src="index.js"></script>
