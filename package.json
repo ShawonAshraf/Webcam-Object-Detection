@@ -6,8 +6,8 @@
     "scripts": {
         "test": "jest",
         "start": "node server.js",
-        "build": "rm -rf ./dist && parcel build application/index.html --public-url='/tfjs-object-detection/'",
-        "serve": "parcel src/index.html"
+        "build": "rm -rf ./dist && parcel build application/index.html --public-url='/'",
+        "serve": "parcel application/index.html"
     },
     "author": "Shawon Ashraf",
     "license": "ISC",
