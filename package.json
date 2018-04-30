@@ -1,11 +1,11 @@
 {
-  "name": "tfjs-object-detection",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+    "name": "tfjs-object-detection",
+    "version": "1.0.0",
+    "description": "Object Detection using tensorflow js",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Shawon Ashraf",
+    "license": "ISC"
 }
