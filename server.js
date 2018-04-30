@@ -18,3 +18,20 @@ app.use((req, res, next) => {
         'Site under maintenance'
     ));
 });
+
+
+// routes
+app.get('/', (req, res) => {
+    res.render('home.hbs', resObj.responseObject(
+        'tfjs object detection',
+        'home'
+    ));
+});
+
+app.get('/bad', (req, res) => {
+    res.status(400).send();
+});
+
+app.listen(port, () => {
+    console.log(`server running on port: ${port}`);
+});
