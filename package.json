@@ -4,7 +4,10 @@
     "description": "Object Detection using tensorflow js",
     "main": "dist/index.bundle.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack",
+        "test": "jest",
+        "watch": "webpack --watch"
     },
     "author": "Shawon Ashraf",
     "license": "ISC",
@@ -21,10 +24,5 @@
     "dependencies": {
         "@tensorflow/tfjs": "^0.10.3",
         "tfjs-yolo-tiny": "0.0.4"
-    },
-    "scripts": {
-        "build": "webpack",
-        "test": "jest",
-        "watch": "webpack --watch"
     }
 }
