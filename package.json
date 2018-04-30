@@ -11,6 +11,10 @@
     },
     "author": "Shawon Ashraf",
     "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ShawonAshraf/Webcam-Object-Detection"
+    },
     "devDependencies": {
         "babel-cli": "^6.26.0",
         "babel-loader": "^7.1.4",
