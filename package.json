@@ -6,7 +6,7 @@
     "scripts": {
         "test": "jest",
         "start": "node server.js",
-        "build": "rm -rf ./dist && parcel build src/index.html --public-url='/tfjs-yolo-tiny-demo/'",
+        "build": "rm -rf ./dist && parcel build application/index.html --public-url='/tfjs-object-detection/'",
         "serve": "parcel src/index.html"
     },
     "author": "Shawon Ashraf",
