@@ -13,11 +13,9 @@ app.use(express.static(__dirname + '/public'));
 
 // routes
 app.get('/', (req, res) => {
-    res.render('home.hbs', resObj.responseObject(
-        'tfjs object detection',
-        'home'
-    ));
+    res.status(200).render('../');
 });
+
 
 app.get('/bad', (req, res) => {
     res.status(400).send();
