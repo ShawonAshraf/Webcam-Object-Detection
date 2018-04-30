@@ -1,8 +1,10 @@
 # Object detection in Web Browser
 > Using webcam/mobile camera
 
-## Web Link
-Deployed @ https://lit-lowlands-32138.herokuapp.com/
+## Web Links
+- Deployed @ https://lit-lowlands-32138.herokuapp.com/
+- Github : https://github.com/ShawonAshraf/Webcam-Object-Detection
+- Gitlab : https://gitlab.com/ShawonAshraf/tfjs-object-detection
 
 ## Model in use
 Using [Tiny YOLO](https://pjreddie.com/darknet/yolo/), an ML model that's been converted to work in Tensorflow.js
