@@ -1,6 +1,6 @@
-import * as express from 'express';
-import * as hbs from 'hbs';
-import * as resObj from './response-obj/response-obj';
+const express = require('express');
+const hbs = require('hbs');
+const resObj = require('./response-obj/response-obj');
 
 
 const port = process.env.PORT || 3000;

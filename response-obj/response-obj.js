@@ -1,4 +1,4 @@
-export var responseObject = (welcomeMessage, pageTitle) => {
+var responseObject = (welcomeMessage, pageTitle) => {
     return {
         welcomeMessage,
         pageTitle,
@@ -7,20 +7,22 @@ export var responseObject = (welcomeMessage, pageTitle) => {
     };
 };
 
-export class ResponseObject {
-    constructor(welcomeMessage, pageTitle) {
-        this.welcomeMessage = welcomeMessage;
-        this.pageTitle = pageTitle;
-        this.currentYear = new Date().getFullYear();
-        this.currentServerTime = new Date();
+// class ResponseObject {
+//     constructor(welcomeMessage, pageTitle) {
+//         this.welcomeMessage = welcomeMessage;
+//         this.pageTitle = pageTitle;
+//         this.currentYear = new Date().getFullYear();
+//         this.currentServerTime = new Date();
 
-        this.createResponseObject = () => {
-            return {
-                welcomeMessage: this.welcomeMessage,
-                pageTitle: this.pageTitle,
-                currentYear: this.currentYear,
-                currentServerTime: this.currentServerTime
-            };
-        };
-    }
-}
+//         this.createResponseObject = () => {
+//             return {
+//                 welcomeMessage: this.welcomeMessage,
+//                 pageTitle: this.pageTitle,
+//                 currentYear: this.currentYear,
+//                 currentServerTime: this.currentServerTime
+//             };
+//         };
+//     }
+// }
+
+module.exports.responseObject = responseObject;

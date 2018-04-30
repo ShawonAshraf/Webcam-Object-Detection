@@ -7,7 +7,7 @@
         "test": "jest",
         "build": "webpack",
         "watch": "webpack --watch",
-        "start": "node server.js"
+        "start": "babel server.js"
     },
     "author": "Shawon Ashraf",
     "license": "ISC",
