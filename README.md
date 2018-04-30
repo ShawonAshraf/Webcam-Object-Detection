@@ -1,6 +1,9 @@
 # Object detection in Web Browser
 > Using webcam/mobile camera
 
+## Slow or can't detect?
+Whereas typical object detection models run in powerful servers, this one runs on your device. So if your device is slow, it will take time.
+
 ## Web Links
 - Deployed @ https://lit-lowlands-32138.herokuapp.com/
 - Github : https://github.com/ShawonAshraf/Webcam-Object-Detection
