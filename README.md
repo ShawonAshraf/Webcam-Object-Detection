@@ -2,7 +2,7 @@
 > Using webcam/mobile camera
 
 ## Web Link
-Visit 
+Deployed @ https://lit-lowlands-32138.herokuapp.com/
 
 ## Model in use
 Using [Tiny YOLO](https://pjreddie.com/darknet/yolo/), an ML model that's been converted to work in Tensorflow.js
