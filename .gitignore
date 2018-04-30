@@ -200,5 +200,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# parcel cache
+.cache
 
 # End of https://www.gitignore.io/api/node,macos,linux,images,windows,webstorm+all,visualstudiocode

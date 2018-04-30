@@ -13,7 +13,7 @@ app.use(express.static(__dirname + '/public'));
 
 // routes
 app.get('/', (req, res) => {
-    res.status(200).render('../');
+    res.status(200).render('./application/index.html');
 });
 
 
