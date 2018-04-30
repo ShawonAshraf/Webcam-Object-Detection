@@ -6,7 +6,8 @@
     "scripts": {
         "test": "jest",
         "build": "webpack",
-        "watch": "webpack --watch"
+        "watch": "webpack --watch",
+        "start": "node server.js"
     },
     "author": "Shawon Ashraf",
     "license": "ISC",
