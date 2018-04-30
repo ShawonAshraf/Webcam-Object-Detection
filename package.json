@@ -13,6 +13,7 @@
         "babel-preset-env": "^1.6.1"
     },
     "dependencies": {
-        "@tensorflow/tfjs": "^0.10.3"
+        "@tensorflow/tfjs": "^0.10.3",
+        "tfjs-yolo-tiny": "0.0.4"
     }
 }
