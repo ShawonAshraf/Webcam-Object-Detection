@@ -1,22 +1,14 @@
 const express = require('express');
-const hbs = require('hbs');
-const resObj = require('./response-obj/response-obj');
-
 
 const port = process.env.PORT || 3000;
 
 var app = express();
 
-hbs.registerPartials(__dirname + '/views/partials');
-app.set('view engine', 'hbs');
-app.use(express.static(__dirname + '/public'));
+// load the static file on load
+// since all the processing will be done on server side
+app.use('', express.static(__dirname + '/dist'));
 
 // routes
-app.get('/', (req, res) => {
-    res.sendfile('./application/index.html');
-});
-
-
 app.get('/bad', (req, res) => {
     res.status(400).send();
 });
