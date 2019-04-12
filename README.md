@@ -1,6 +1,8 @@
 # Object detection in Web Browser
 > Using webcam/mobile camera
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0f71f991-0e61-4125-807f-07c7833d9aa0/deploy-status)](https://app.netlify.com/sites/optimistic-davinci-81bcd8/deploys)
+
 ## Live Link
 https://optimistic-davinci-81bcd8.netlify.com/
 
